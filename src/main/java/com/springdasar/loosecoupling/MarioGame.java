@@ -1,4 +1,4 @@
-package com.springdasar.demo;
+package com.springdasar.loosecoupling;
 
 public class MarioGame implements GamingConsole {
 

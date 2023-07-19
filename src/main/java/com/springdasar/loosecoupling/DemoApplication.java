@@ -1,4 +1,4 @@
-package com.springdasar.demo;
+package com.springdasar.loosecoupling;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,12 +10,9 @@ public class DemoApplication {
 		var metalSlugGame = new MetalSlugGame();
 		var gameRunner = new GameRunner(metalSlugGame);
 		gameRunner.run();
-		System.out.println("");
 		var marioGame = new MarioGame();
 		gameRunner = new GameRunner(marioGame);
 		gameRunner.run();
-
-		
 	}
 
 }
