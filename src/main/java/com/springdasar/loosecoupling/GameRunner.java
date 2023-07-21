@@ -1,5 +1,8 @@
 package com.springdasar.loosecoupling;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
     // MarioGame game;
     GamingConsole game;

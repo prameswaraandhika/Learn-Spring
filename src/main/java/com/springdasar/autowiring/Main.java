@@ -3,12 +3,11 @@ package com.springdasar.autowiring;
 import java.util.Arrays;
 
 import org.springframework.beans.BeansException;
-import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails.Address;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Main {
     public static void main(String[] args) {
-        /*
+        /*t
          * ApplicationContext is the core of Spring, because their managed all Bean that
          * means Its Container
          * For use an ApplicationContext we must add @Configuration
