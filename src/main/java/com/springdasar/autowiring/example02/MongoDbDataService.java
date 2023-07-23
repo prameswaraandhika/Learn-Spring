@@ -1,10 +1,11 @@
-package com.springdasar.example02;
+package com.springdasar.autowiring.example02;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
 @Primary
+
 public class MongoDbDataService implements DataService {
 
     @Override

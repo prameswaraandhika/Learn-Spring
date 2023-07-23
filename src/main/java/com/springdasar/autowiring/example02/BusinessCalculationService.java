@@ -1,4 +1,4 @@
-package com.springdasar.example02;
+package com.springdasar.autowiring.example02;
 
 import java.util.Arrays;
 
