@@ -12,7 +12,8 @@ class BusinesClass {
     DenpendencieA denpendencieA;
     DenpendencieB denpendencieB;
 
-    // @Autowired // constructor injection for dependencies of bussiness logic object
+    // @Autowired // constructor injection for dependencies of bussiness logic
+    // object
     public BusinesClass(DenpendencieA denpendencieA, DenpendencieB denpendencieB) {
         this.denpendencieA = denpendencieA;
         this.denpendencieB = denpendencieB;
@@ -27,10 +28,20 @@ class BusinesClass {
 @Component
 class DenpendencieA {
 
+    @Override
+    public String toString() {
+        return "DenpendencieA";
+    }
+
 }
 
 @Component
 class DenpendencieB {
+
+    @Override
+    public String toString() {
+        return "DenpendencieB";
+    }
 
 }
 
