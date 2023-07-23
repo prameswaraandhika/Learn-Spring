@@ -44,7 +44,7 @@ public class Example01 {
             System.out.println(userSession1 + ", " + userSession1.hashCode());
 
             UserSession userSession2 = context.getBean(UserSession.class);
-            userSession2.setAllFields("Username2", "Session321");
+            userSession2.setAllFields("Username2", "Session123");
             System.out.println(userSession2 + ", " + userSession2.hashCode());
 
             userSession1.logout();
