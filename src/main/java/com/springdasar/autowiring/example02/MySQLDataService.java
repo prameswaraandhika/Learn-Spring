@@ -1,8 +1,8 @@
 package com.springdasar.autowiring.example02;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 public class MySQLDataService implements DataService {
 
     @Override

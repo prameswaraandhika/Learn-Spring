@@ -3,8 +3,9 @@ package com.springdasar.autowiring.example02;
 import java.util.Arrays;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class BusinessCalculationService {
 
     DataService dataService;
